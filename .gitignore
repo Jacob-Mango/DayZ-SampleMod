@@ -1,0 +1,7 @@
+# DayZ SA
+*.biprivatekey
+
+user.cfg
+
+# VSCode
+.vscode/
