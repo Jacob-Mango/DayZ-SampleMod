@@ -8,7 +8,15 @@ GameProjectClass {
 			FileSystem {
 				FileSystemPathClass {
 					Name "Game Root"
-					Directory "./"
+					Directory "P:"
+				}
+				FileSystemPathClass {
+					Name "Community Framework"
+					Directory "P:\JM\CF"
+				}
+				FileSystemPathClass {
+					Name "My First Mod"
+					Directory "P:\MyPrefix\MyMod"
 				}
 			}
 			imageSets {
@@ -72,9 +80,10 @@ GameProjectClass {
 					Paths {
 						"scripts/editor/Workbench"
 						"scripts/editor/plugins"
+						"MyPrefix/MyMod/Scripts/Workbench/Plugins"
 					}
 					EntryPoint ""
-				} 
+				}
 			}
 		}
 		GameProjectConfigClass XBOX_ONE {
